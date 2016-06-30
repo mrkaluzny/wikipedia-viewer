@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+body, a {
+  background: #292F36;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a:hover {
+  color: #14CC60;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.spacer {
+  margin: 70px;
+}
+
+#search-input {
+  background-color: #292F36;
+  color:#fff;
+  border: 3px #14CC60 solid;
+  border-radius: 17px;
+  margin-top: 20px;
+  height: 30px;
+}
+
+#search-input:focus {
+  outline:none;
+  background-color: white;
+  color: #292F36;
+}
+
+
+.result {
+  background-color: #fff;
+  color: #292F36;
+  padding: 10px 40px;
+  border-left: 6px #292F36 solid;
+  border-right: 6px #292F36 solid;
+  margin-bottom: 10px;
+}
+
+.result:hover {
+  border-left: 6px #14CC60 solid;
+}
