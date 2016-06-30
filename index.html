@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta name="author" content="Wojciech Kałużny">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="spacer"></div>
+    <div class="col-md-12">
+      <h1 class="text-center animated fadeIn">Wikipedia Viewer</h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="col-md-12 animated fadeIn">
+      <h4 class="text-center animated fadeIn"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click for a random article</a></h4>
+    </div>
+  </div>
+  <div class="row animated fadeIn">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 center">
+      <input type="text" id="search-input" class="text-center form-control">
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
+<div class="spacer"></div>
+<div class="container" id="results">
+  <a href="https://en.wikipedia.org/?curid=1814" target="_blank"><div class="col-md-12 result animated fadeInUp">
+    <h3>Adam Smith</h3>
+    <p>Adam Smith (16 June 1723 NS (5 June 1723 OS) – 17 July 1790) was a Scottish moral philosopher, pioneer of political economy, and a key figure in the Scottish Enlightenment.</p>
+    </div></a>
+</div>
+<div class="spacer"></div>
+<div class="container">
+  <div class="col-xs-12">
+    <h5 class="text-center animated fadeInUp">Made with <span style="color:#14CC60">&hearts;</span> by <a href="http://mrkaluzny.pl" target="_blank" style="color:#14CC60">Wojciech Kałużny</a></h5>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
